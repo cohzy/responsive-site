@@ -87,9 +87,12 @@ header {
     }
   }
   .profile-icon {
+    background-image: url(../images/responsive_picture.jpg);
     margin: 0px auto;
-    width: auto;
+    width: 100%;
     height:500px;
+    background-size:cover;
+    background-position: center center;
   }
   p {
     font-size: 1.6rem;
@@ -252,8 +255,11 @@ section {
   
   header {
   .profile-icon {
-    width: auto;
+    background-image: url(../images/responsive_picture.jpg);
+    width: 100%;
     height: 250px;
+    background-size:cover;
+    background-position: center center;
    }
   }
 

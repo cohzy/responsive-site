@@ -77,9 +77,12 @@ header .site-title {
     color: #c98474;
     margin: 25px auto; }
 header .profile-icon {
+  background-image: url(../images/responsive_picture.jpg);
   margin: 0px auto;
-  width: auto;
-  height: 500px; }
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center; }
 header p {
   font-size: 1.6rem;
   margin: 30px auto; }
@@ -211,8 +214,11 @@ section {
     color: #FFF; }
 
   header .profile-icon {
-    width: auto;
-    height: 250px; }
+    background-image: url(../images/responsive_picture.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center center; }
 
   #skills .container {
     display: -webkit-flex;
