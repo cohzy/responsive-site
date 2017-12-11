@@ -78,7 +78,8 @@ header .site-title {
     margin: 25px auto; }
 header .profile-icon {
   margin: 0px auto;
-  max-width: 100%; }
+  width: auto;
+  height: 500px; }
 header p {
   font-size: 1.6rem;
   margin: 30px auto; }
@@ -211,7 +212,7 @@ section {
 
   header .profile-icon {
     width: auto;
-    max-height: 250px; }
+    height: 250px; }
 
   #skills .container {
     display: -webkit-flex;

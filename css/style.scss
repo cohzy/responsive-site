@@ -88,7 +88,8 @@ header {
   }
   .profile-icon {
     margin: 0px auto;
-    max-width: 100%;
+    width: auto;
+    height:500px;
   }
   p {
     font-size: 1.6rem;
@@ -252,7 +253,7 @@ section {
   header {
   .profile-icon {
     width: auto;
-    max-height: 250px;
+    height: 250px;
    }
   }
 
